@@ -37,7 +37,7 @@ export default function MissionStatementPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Empowering the future of autonomous e-commerce through intelligent AI innovation
+              Empowering the future of global commerce through an interconnected AI workforce orchestrating Seller and Vendor Central operations.
             </p>
           </motion.div>
         </div>
@@ -80,7 +80,7 @@ export default function MissionStatementPage() {
             position: 'relative',
             zIndex: 1
           }}>
-            Transforming E-commerce Through AI
+            Governing 1P and 3P Commerce Through Interconnected AI
           </h2>
           <p style={{ 
             fontSize: '1.125rem', 
@@ -92,9 +92,8 @@ export default function MissionStatementPage() {
             position: 'relative',
             zIndex: 1
           }}>
-            At AURORA9, our mission is to empower e-commerce businesses with an intelligent, fully autonomous AI workforce. 
-            We are dedicated to transforming operations into streamlined, high-performing systems powered by Agentic AI — 
-            enabling entrepreneurs and enterprises to scale without limits.
+            At AURORA9, our mission is to deploy the world’s first interconnected AI workforce for global commerce. 
+            We empower enterprises to scale across Seller and Vendor Central without operational limits by integrating specialized Marketing, Inventory, and Customer Experience agents into a single ecosystem.
           </p>
           <p style={{ 
             fontSize: '1.125rem', 
@@ -105,8 +104,7 @@ export default function MissionStatementPage() {
             position: 'relative',
             zIndex: 1
           }}>
-            Through innovation, data precision, and AI autonomy, we&apos;re creating the future of commerce where decision-making, 
-            optimization, and scalability happen hands-free — while keeping human vision at the heart of progress.
+            We are committed to Autonomous Integrity—optimizing SP-API usage fees and brand performance across three configurable modes of autonomy: Progressive, Semi-Autonomous, and Fully Autonomous oversight.
           </p>
         </motion.div>
 
@@ -128,7 +126,6 @@ export default function MissionStatementPage() {
               overflow: 'hidden'
             }}
           >
-            {/* Floating particles */}
             <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
             <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
             
@@ -156,7 +153,7 @@ export default function MissionStatementPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Autonomous Excellence
+              Autonomous Integrity
             </h3>
             <p style={{ 
               color: '#cbd5e1', 
@@ -165,8 +162,7 @@ export default function MissionStatementPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              We believe in creating AI systems that operate independently, making intelligent decisions 
-              without constant human oversight while maintaining the highest standards of performance.
+              We provide governed autonomy. Every action operates within strict compliance guardrails and event-driven architectures to protect account health and mitigate Amazon SP-API usage fees.
             </p>
           </motion.div>
 
@@ -186,7 +182,6 @@ export default function MissionStatementPage() {
               overflow: 'hidden'
             }}
           >
-            {/* Floating particles */}
             <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
             <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
             
@@ -203,7 +198,7 @@ export default function MissionStatementPage() {
               zIndex: 1
             }}>
               <svg style={{ width: '1.5rem', height: '1.5rem', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2m0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
             <h3 style={{ 
@@ -214,7 +209,7 @@ export default function MissionStatementPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Scalable Growth
+              Infinite Operational Elasticity
             </h3>
             <p style={{ 
               color: '#cbd5e1', 
@@ -223,8 +218,7 @@ export default function MissionStatementPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Our mission is to remove growth barriers by providing infinitely scalable AI solutions 
-              that adapt to your business needs, whether you&apos;re a startup or enterprise.
+              Scale from 1 to 1,000+ SKUs across Seller and Vendor Central without adding headcount. Our workforce eliminates operational ceilings, unifying 1P and 3P management into one seamless flow.
             </p>
           </motion.div>
 
@@ -244,7 +238,6 @@ export default function MissionStatementPage() {
               overflow: 'hidden'
             }}
           >
-            {/* Floating particles */}
             <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
             <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
             
@@ -272,7 +265,7 @@ export default function MissionStatementPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Human-Centered Innovation
+              Executive Empowerment
             </h3>
             <p style={{ 
               color: '#cbd5e1', 
@@ -281,8 +274,7 @@ export default function MissionStatementPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              While we automate operations, we keep human creativity and strategic thinking at the center. 
-              Our AI enhances human potential rather than replacing it.
+              Choose your level of control with Progressive, Semi-Autonomous, or Fully Autonomous modes. We empower you to focus on strategy while the workforce executes the tactical A-Z.
             </p>
           </motion.div>
         </div>
@@ -305,7 +297,6 @@ export default function MissionStatementPage() {
             position: 'relative',
             overflow: 'hidden'
           }}>
-            {/* Floating particles */}
             <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
             <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
             
@@ -330,8 +321,7 @@ export default function MissionStatementPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Be part of the e-commerce revolution. Experience the power of autonomous AI agents 
-              working seamlessly to transform your business operations.
+              Be part of the global commerce revolution. Experience the power of an interconnected AI workforce mastering 1P and 3P operations from A to Z.
             </p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', position: 'relative', zIndex: 1 }}>
               <a 
@@ -347,14 +337,6 @@ export default function MissionStatementPage() {
                   textDecoration: 'none',
                   display: 'inline-block',
                   boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
-                }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)';
                 }}
               >
                 Start Your Journey
@@ -373,16 +355,6 @@ export default function MissionStatementPage() {
                   display: 'inline-block',
                   border: '1px solid rgba(203, 213, 225, 0.3)',
                   boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
-                }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)';
-                  e.currentTarget.style.color = 'white';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)';
-                  e.currentTarget.style.color = '#cbd5e1';
                 }}
               >
                 Our Vision

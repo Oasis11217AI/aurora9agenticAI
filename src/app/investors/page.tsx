@@ -20,7 +20,7 @@ export default function InvestorsPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Invest in the Future
+              The Infrastructure of Global Trade
             </h1>
             <p style={{ 
               fontSize: '1.5rem', 
@@ -33,8 +33,8 @@ export default function InvestorsPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Join AURORA9&apos;s mission to revolutionize e-commerce with autonomous AI agents. 
-              Be part of the next generation of Amazon seller automation.
+              AURORA9 is architecting the foundational nervous system for 1P and 3P commerce. 
+              We are building the defensible infrastructure that unifies global supply chains into a single, self-healing ecosystem.
             </p>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function InvestorsPage() {
                 marginBottom: '1.5rem',
                 color: '#cbd5e1'
               }}>
-                Revolutionary AI Platform
+                The Trillion-Dollar Complexity Gap
               </h2>
               <p style={{ 
                 color: '#cbd5e1', 
@@ -75,22 +75,22 @@ export default function InvestorsPage() {
                 marginBottom: '1.5rem',
                 fontWeight: '300'
               }}>
-                AURORA9 is not just building software – we&apos;re creating the future of Amazon Seller Central operations 
-                with a fully autonomous, agentic AI workforce. We&apos;re transforming complex, labor-intensive online 
-                selling into streamlined, highly efficient, and massively profitable enterprises.
+                As Amazon evolves, the barrier between Seller (3P) and Vendor Central (1P) has created massive operational friction. 
+                AURORA9 captures this value by deploying an interconnected workforce that eliminates silos, mitigates SP-API usage fees, 
+                and prevents shortage claims for global brands.
               </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                   <div style={{ width: '0.5rem', height: '0.5rem', background: '#667eea', borderRadius: '50%' }}></div>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Cutting-edge AI-SaaS platform</span>
+                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Proprietary Omni-Synergy Engine™ infrastructure</span>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                   <div style={{ width: '0.5rem', height: '0.5rem', background: '#764ba2', borderRadius: '50%' }}></div>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Autonomous AI workforce operations</span>
+                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Active Amazon SP-API fee mitigation logic</span>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                   <div style={{ width: '0.5rem', height: '0.5rem', background: '#f093fb', borderRadius: '50%' }}></div>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Enterprise-grade scalability</span>
+                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Foundational supply chain self-healing</span>
                 </div>
               </div>
             </div>
@@ -102,19 +102,19 @@ export default function InvestorsPage() {
               backdropFilter: 'blur(10px)',
               WebkitBackdropFilter: 'blur(10px)'
             }}>
-              <h3 style={{ fontSize: '1.5rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Market Opportunity</h3>
+              <h3 style={{ fontSize: '1.5rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Market Scope</h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Global E-commerce Market</span>
-                  <span style={{ color: 'white', fontWeight: '300' }}>$6.2T</span>
+                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Target GMV Ecosystem</span>
+                  <span style={{ color: 'white', fontWeight: '300' }}>$1.2T</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Amazon Marketplace</span>
-                  <span style={{ color: 'white', fontWeight: '300' }}>$600B+</span>
+                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>1P/3P Unification Potential</span>
+                  <span style={{ color: 'white', fontWeight: '300' }}>100%</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>AI Market Growth</span>
-                  <span style={{ color: 'white', fontWeight: '300' }}>35% CAGR</span>
+                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Shortage Mitigation Accuracy</span>
+                  <span style={{ color: 'white', fontWeight: '300' }}>95%</span>
                 </div>
               </div>
             </div>
@@ -147,9 +147,9 @@ export default function InvestorsPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
               </svg>
             </div>
-            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Pioneering Technology</h3>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Defensible Intellectual Property</h3>
             <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-              First-to-market autonomous AI agents specifically designed for Amazon seller operations with unprecedented automation capabilities.
+              Anchored by the Omni-Synergy Engine™, ACRE™, and PON™, our technology is a specialized infrastructure moat that cannot be easily replicated by generic AI wrappers.
             </p>
           </div>
 
@@ -177,9 +177,9 @@ export default function InvestorsPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
               </svg>
             </div>
-            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Massive ROI Potential</h3>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Margin Protection Infrastructure</h3>
             <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-              Clear path to profitability through automation efficiency, targeting multi-trillion dollar e-commerce ecosystem with proven demand.
+              We transform operational costs into profit centers. By mitigating Amazon overhead and SP-API usage fees, we provide institutional-grade margin defense.
             </p>
           </div>
 
@@ -207,9 +207,9 @@ export default function InvestorsPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
             </div>
-            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Expert Team</h3>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>AWS-Native Scalability</h3>
             <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-              Led by AI experts, seasoned engineers, and e-commerce veterans with proven track records in building scalable solutions.
+              Built on a robust AWS-native architecture, AURORA9 is designed to survive Amazon regime shifts while scaling to handle the world&apos;s largest trade entities.
             </p>
           </div>
         </div>
@@ -235,12 +235,12 @@ export default function InvestorsPage() {
             fontSize: '1.875rem', 
             fontWeight: '300', 
             textAlign: 'center', 
-            marginBottom: '2.5rem',
-            color: '#cbd5e1',
-            position: 'relative',
+            marginBottom: '2.5rem', 
+            color: '#cbd5e1', 
+            position: 'relative', 
             zIndex: 1
           }}>
-            Product Roadmap & Milestones
+            Infrastructure Roadmap & Milestones
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
             <div style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
@@ -255,11 +255,11 @@ export default function InvestorsPage() {
                 margin: '0 auto 1rem',
                 boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
               }}>
-                <span style={{ color: 'white', fontWeight: '300', fontSize: '1.125rem' }}>Q4</span>
+                <span style={{ color: 'white', fontWeight: '300', fontSize: '1.125rem' }}>P1</span>
               </div>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '0.75rem' }}>2025 - MVP Launch</h3>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '0.75rem' }}>Market Entry & Unification</h3>
               <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-                Core AI agents for inventory management, pricing optimization, and basic automation features.
+                Mastering 1P/3P Amazon orchestration and SP-API fee mitigation for enterprise-tier global brands.
               </p>
             </div>
             <div style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
@@ -274,11 +274,11 @@ export default function InvestorsPage() {
                 margin: '0 auto 1rem',
                 boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
               }}>
-                <span style={{ color: 'white', fontWeight: '300', fontSize: '1.125rem' }}>Q2</span>
+                <span style={{ color: 'white', fontWeight: '300', fontSize: '1.125rem' }}>P2</span>
               </div>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '0.75rem' }}>2026 - Scale</h3>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '0.75rem' }}>Global Trade Integration</h3>
               <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-                Advanced AI capabilities, enterprise features, and multi-marketplace support expansion.
+                Expanding the Omni-Synergy Engine™ into Walmart, Shopify, and global trade port logistics.
               </p>
             </div>
             <div style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
@@ -293,11 +293,11 @@ export default function InvestorsPage() {
                 margin: '0 auto 1rem',
                 boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
               }}>
-                <span style={{ color: 'white', fontWeight: '300', fontSize: '1.125rem' }}>Q4</span>
+                <span style={{ color: 'white', fontWeight: '300', fontSize: '1.125rem' }}>P3</span>
               </div>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '0.75rem' }}>2026 - Global</h3>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '0.75rem' }}>Self-Healing Commerce</h3>
               <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-                International market expansion and full autonomous AI workforce deployment.
+                Deployment of a fully autonomous global infrastructure capable of predictive self-healing logistics.
               </p>
             </div>
           </div>
@@ -323,22 +323,21 @@ export default function InvestorsPage() {
             <h2 style={{ 
               fontSize: '1.875rem', 
               fontWeight: '300', 
-              marginBottom: '1rem',
+              marginBottom: '1rem', 
               color: '#cbd5e1'
             }}>
-              Ready to Join Our Journey?
+              Invest in the Future of Infrastructure
             </h2>
             <p style={{ 
               color: '#cbd5e1', 
               fontSize: '1.125rem', 
               maxWidth: '48rem', 
-              margin: '0 auto',
-              fontWeight: '300',
+              margin: '0 auto', 
+              fontWeight: '300', 
               lineHeight: '1.6'
             }}>
-              Your investment will accelerate our development, expand our market reach, and solidify our position 
-              as the leader in autonomous AI solutions for Amazon sellers. Fill out the form below to receive our 
-              investor deck and schedule a personalized discussion.
+              Join us as we redefine the structural limits of global trade. 
+              Fill out the form below to receive our investor deck and schedule a briefing with our executive team.
             </p>
           </div>
           <div style={{ position: 'relative', zIndex: 1 }}>

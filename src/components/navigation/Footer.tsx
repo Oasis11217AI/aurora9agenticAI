@@ -9,9 +9,7 @@ export default function Footer() {
         <div className="space-y-4 md:pr-8">
           <h3 className="text-heading-2 text-white">About Us</h3>
           <p className="text-body leading-relaxed" style={{ color: '#cbd5e1' }}>
-            AURORA9 is revolutionizing e-commerce automation with intelligent AI agents that work 24/7 to optimize your business operations. 
-            Our cutting-edge technology empowers entrepreneurs to scale effortlessly while maintaining peak performance across all platforms. 
-            We&apos;re dedicated to transforming how businesses operate in the digital age through autonomous AI-driven solutions.
+            AURORA9 is the foundational nervous system for 1P and 3P commerce. By deploying an interconnected AI workforce, we enable global brands to master Marketing, Inventory, and CX from A to Z while mitigating Amazon SP-API fees. We empower enterprises to scale through three governed modes: Progressive, Semi-Autonomous, and Fully Autonomous integrity.
           </p>
           <div className="flex flex-col space-y-2">
             <Link
@@ -79,7 +77,6 @@ export default function Footer() {
         &copy; {new Date().getFullYear()} AURORA9. All rights reserved.
       </div>
 
-      {/* Dark Mode Toggle positioned in bottom-right corner */}
       <DarkModeToggle />
     </footer>
   );

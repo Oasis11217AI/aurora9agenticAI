@@ -8,19 +8,22 @@ export const metadata: Metadata = {
   // ✅ FIX 1: Point to the real domain
   metadataBase: new URL('https://www.aurora9.ai'),
   title: {
-    default: "AURORA9 - Autonomous AI Workforce for E-commerce",
+    default: "AURORA9 | Interconnected AI Workforce for 1P & 3P Global Commerce",
     template: "%s | AURORA9"
   },
-  description: "Transform your e-commerce business with AURORA9's fully autonomous Agentic AI workforce. Experience effortless, intelligent growth through predictive analytics, automated optimization, and real-time marketplace intelligence.",
+  description: "The foundational nervous system for 1P and 3P commerce. AURORA9 deploys a governed AI workforce to master Marketing, Inventory, and CX from A to Z while mitigating Amazon SP-API fees.",
   keywords: [
     "AI workforce",
     "e-commerce automation",
     "agentic AI",
-    "predictive analytics",
-    "autonomous business operations",
-    "marketplace intelligence",
-    "AI-driven growth",
-    "automated optimization"
+    "interconnected AI",
+    "governed autonomy",
+    "marketplace management",
+    "Amazon Seller AI",
+    "Vendor Central AI",
+    "1P Amazon Management",
+    "API fee mitigation",
+    "Amazon SP-API cost optimization"
   ],
   authors: [{ name: "AURORA9 Team" }],
   creator: "AURORA9",
@@ -41,22 +44,22 @@ export const metadata: Metadata = {
     locale: "en_US",
     // ✅ FIX 2: Point to the real domain
     url: "https://www.aurora9.ai",
-    title: "AURORA9 - Autonomous AI Workforce for E-commerce",
-    description: "Transform your e-commerce business with AURORA9's fully autonomous Agentic AI workforce. Experience effortless, intelligent growth.",
+    title: "AURORA9 | Interconnected AI Workforce for 1P & 3P Global Commerce",
+    description: "The foundational nervous system for 1P and 3P commerce. Interconnected agents orchestrating Marketing, Inventory, and CX while mitigating Amazon SP-API fees.",
     siteName: "AURORA9",
     images: [
       {
         url: "/AURORA9.png",
         width: 1200,
         height: 630,
-        alt: "AURORA9 - Autonomous AI Workforce",
+        alt: "AURORA9 - Interconnected AI Workforce",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AURORA9 - Autonomous AI Workforce for E-commerce",
-    description: "Transform your e-commerce business with AURORA9's fully autonomous Agentic AI workforce.",
+    title: "AURORA9 | Interconnected AI Workforce for 1P & 3P Global Commerce",
+    description: "Transform your enterprise with AURORA9’s interconnected, governed Agentic AI workforce for Seller and Vendor Central.",
     images: ["/AURORA9.png"],
     creator: "@aurora9ai",
   },

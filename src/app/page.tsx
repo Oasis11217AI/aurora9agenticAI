@@ -1,23 +1,21 @@
 "use client";
 
+import React from "react";
 import { motion } from "framer-motion";
 import Script from "next/script";
-import FeatureSection from "@/components/sections/FeatureSection";
 import DarkModeToggle from "@/components/ui/DarkModeToggle";
 
 export default function Home() {
-
   return (
     <>
       <DarkModeToggle />
-      <main className="pt-20" style={{ background: 'var(--background)', color: 'var(--foreground)' }}>
-        {/* Enhanced Hero Section */}
+      <main style={{ minHeight: '100vh', background: 'var(--background)', color: 'var(--foreground)' }}>
+        
+        {/* Hero Section */}
         <section className="relative text-center py-32 px-6 text-white overflow-hidden min-h-screen flex items-center" style={{ background: 'var(--gradient-cosmic)' }}>
-          {/* Animated background elements */}
           <div className="absolute inset-0">
             <div className="absolute top-20 left-10 w-72 h-72 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-float" style={{ background: 'var(--primary)' }}></div>
             <div className="absolute top-40 right-10 w-72 h-72 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-float" style={{ background: 'var(--accent)', animationDelay: '2s' }}></div>
-            <div className="absolute -bottom-8 left-20 w-72 h-72 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-float" style={{ background: 'var(--secondary)', animationDelay: '4s' }}></div>
           </div>
           
           <motion.div
@@ -28,39 +26,128 @@ export default function Home() {
           >
             <h1 className="text-display mb-6 leading-tight">
               <span className="gradient-text" style={{ fontWeight: '300' }}>
-                The Future of E-commerce: Agentic AI Workforce
+                The Foundational Nervous System for 1P and 3P Global Commerce
               </span>
             </h1>
             
-            <p className="text-body-large mb-16 max-w-4xl mx-auto leading-relaxed" style={{ color: '#cbd5e1' }}>
-              AURORA9 deploys a fully autonomous Agentic AI workforce that transforms your e-commerce business into a 
-              <span className="font-semibold" style={{ color: 'var(--accent)' }}> self-optimizing growth engine</span>. 
-              Experience effortless scaling with predictive intelligence that stays ahead of the market.
+            <p className="text-body-large mb-12 max-w-4xl mx-auto leading-relaxed" style={{ color: '#cbd5e1', fontWeight: '300' }}>
+              Deploy an interconnected AI workforce powered by <span className="font-semibold" style={{ color: 'var(--accent)' }}>Proprietary Synergy Engines</span> to orchestrate Marketing, Inventory, and CX from A to Z while mitigating Amazon SP-API fees.
             </p>
 
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center mb-16">
               <div className="space-y-2">
-                <div className="text-3xl md:text-4xl font-bold" style={{ color: 'var(--accent)' }}>1,689</div>
-                <div className="text-small" style={{ color: '#cbd5e1' }}>Early Adopters</div>
+                <div className="text-3xl md:text-4xl font-bold" style={{ color: 'var(--accent)' }}>100%</div>
+                <div className="text-small" style={{ color: '#cbd5e1', fontWeight: '300' }}>1P/3P Unification</div>
               </div>
               <div className="space-y-2">
-                <div className="text-3xl md:text-4xl font-bold" style={{ color: 'var(--accent)' }}>300%</div>
-                <div className="text-small" style={{ color: '#cbd5e1' }}>Avg ROI Increase</div>
-              </div>
-              <div className="space-y-2">
-                <div className="text-3xl md:text-4xl font-bold" style={{ color: 'var(--accent)' }}>99.9%</div>
-                <div className="text-small" style={{ color: '#cbd5e1' }}>Uptime</div>
+                <div className="text-3xl md:text-4xl font-bold" style={{ color: 'var(--accent)' }}>95%</div>
+                <div className="text-small" style={{ color: '#cbd5e1', fontWeight: '300' }}>Shortage Mitigation</div>
               </div>
               <div className="space-y-2">
                 <div className="text-3xl md:text-4xl font-bold" style={{ color: 'var(--accent)' }}>24/7</div>
-                <div className="text-small" style={{ color: '#cbd5e1' }}>Autonomous</div>
+                <div className="text-small" style={{ color: '#cbd5e1', fontWeight: '300' }}>Governed Autonomy</div>
               </div>
+              <div className="space-y-2">
+                <div className="text-3xl md:text-4xl font-bold" style={{ color: 'var(--accent)' }}>AWS</div>
+                <div className="text-small" style={{ color: '#cbd5e1', fontWeight: '300' }}>Native Architecture</div>
+              </div>
+            </div>
+
+            <div className="flex justify-center gap-6">
+              <a href="#waitlist-section" style={{ background: 'white', color: '#764ba2', fontWeight: '600', padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none' }}>
+                Join the Waitlist
+              </a>
+              <a href="/about" style={{ background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: '600', padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none', border: '1px solid white' }}>
+                Our Architecture
+              </a>
             </div>
           </motion.div>
         </section>
 
-        {/* Enhanced Waitlist Section */}
+        {/* REFINED Specialized Agent Intelligence Section */}
+        <div style={{ maxWidth: '96rem', margin: '0 auto', padding: '5rem 1.5rem' }}>
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <h2 style={{ fontSize: '2.5rem', fontWeight: '300', color: '#cbd5e1' }}>Specialized Agent Intelligence</h2>
+            <p style={{ color: '#94a3b8', fontSize: '1.125rem', marginTop: '1rem', fontWeight: '300' }}>
+              Proprietary AWS-native engines designed for the 2026 Amazon ecosystem.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2rem' }}>
+            
+            {/* Omni-Synergy Engine™ */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              style={{
+                background: 'rgba(255, 255, 255, 0.05)',
+                backdropFilter: 'blur(10px)',
+                borderRadius: '1rem',
+                padding: '2.5rem',
+                border: '1px solid rgba(203, 213, 225, 0.2)',
+                position: 'relative',
+                overflow: 'hidden'
+              }}
+            >
+              <div style={{ color: '#4facfe', fontSize: '0.75rem', fontWeight: '700', textTransform: 'uppercase', marginBottom: '1rem', letterSpacing: '0.05em' }}>Proprietary Engine</div>
+              <h3 style={{ color: 'white', fontSize: '1.5rem', fontWeight: '300', marginBottom: '1rem' }}>Omni-Synergy Engine™</h3>
+              <p style={{ color: '#cbd5e1', lineHeight: '1.7', fontWeight: '300', fontSize: '0.9375rem' }}>
+                The infrastructure that breaks down data silos, synchronizing ads, SEO, and pricing decisions across Seller and Vendor Central in real-time.
+              </p>
+            </motion.div>
+
+            {/* Quantum Inventory Master */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              viewport={{ once: true }}
+              style={{
+                background: 'rgba(255, 255, 255, 0.05)',
+                backdropFilter: 'blur(10px)',
+                borderRadius: '1rem',
+                padding: '2.5rem',
+                border: '1px solid rgba(203, 213, 225, 0.2)',
+                position: 'relative',
+                overflow: 'hidden'
+              }}
+            >
+              <div style={{ color: '#8b5cf6', fontSize: '0.75rem', fontWeight: '700', textTransform: 'uppercase', marginBottom: '1rem', letterSpacing: '0.05em' }}>Specialized Agent</div>
+              <h3 style={{ color: 'white', fontSize: '1.5rem', fontWeight: '300', marginBottom: '1rem' }}>Quantum Inventory Master</h3>
+              <p style={{ color: '#cbd5e1', lineHeight: '1.7', fontWeight: '300', fontSize: '0.9375rem' }}>
+                Fee-aware modeling that autonomously manages inbound optimization and prevents shortage claims while mitigating Amazon SP-API usage fees.
+              </p>
+            </motion.div>
+
+            {/* Probabilistic Outcome Navigator™ */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
+              style={{
+                background: 'rgba(255, 255, 255, 0.05)',
+                backdropFilter: 'blur(10px)',
+                borderRadius: '1rem',
+                padding: '2.5rem',
+                border: '1px solid rgba(203, 213, 225, 0.2)',
+                position: 'relative',
+                overflow: 'hidden'
+              }}
+            >
+              <div style={{ color: '#06b6d4', fontSize: '0.75rem', fontWeight: '700', textTransform: 'uppercase', marginBottom: '1rem', letterSpacing: '0.05em' }}>Governance Engine</div>
+              <h3 style={{ color: 'white', fontSize: '1.5rem', fontWeight: '300', marginBottom: '1rem' }}>Probabilistic Outcome Navigator™</h3>
+              <p style={{ color: '#cbd5e1', lineHeight: '1.7', fontWeight: '300', fontSize: '0.9375rem' }}>
+                Ensures Governed Autonomy by providing explainable &quot;Why Cards&quot; for every action, detailing the probability-based outcome of strategic shifts.
+              </p>
+            </motion.div>
+
+          </div>
+        </div>
+
+        {/* Waitlist Section */}
         <motion.section
           id="waitlist-section"
           initial={{ opacity: 0, y: 30 }}
@@ -70,212 +157,35 @@ export default function Home() {
           className="py-24 px-6 text-white relative overflow-hidden"
           style={{ background: 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)' }}
         >
-          {/* Background animation */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="w-96 h-96 rounded-full absolute top-20 -left-20 animate-pulse-slow" style={{ background: 'var(--accent)' }}></div>
-            <div className="w-64 h-64 rounded-full absolute bottom-20 -right-10 animate-float" style={{ background: 'var(--secondary)' }}></div>
-          </div>
-
           <div className="max-w-4xl mx-auto text-center relative z-10">
-            <h2 className="text-heading-1 mb-6" style={{ fontWeight: '300' }}>
+            <h2 className="text-4xl font-light mb-6">
               Be First to Access the Future
-              <span className="block" style={{ color: 'var(--accent)', fontWeight: '300' }}>of E-commerce Automation</span>
+              <span className="block" style={{ color: 'var(--accent)' }}>of 1P and 3P Automation</span>
             </h2>
-            <p className="text-body-large mb-8 leading-relaxed" style={{ color: '#cbd5e1' }}>
-              Join 1,689+ forward-thinking entrepreneurs on the AURORA9 waitlist. 
-              Get exclusive early access, special pricing, and be the first to transform your business.
-            </p>
-
-            {/* MailerLite Email Signup */}
+            
             <div className="flex justify-center mb-12">
-              <motion.div
-                whileHover={{ scale: 1.02 }}
-                className="w-full max-w-2xl"
-              >
-                <div className="glass-effect rounded-2xl p-8">
-                  {/* Custom MailerLite Styles */}
-                  <style jsx>{`
-                    @import url("https://assets.mlcdn.com/fonts.css?version=1748530");
-                    
-                    .ml-form-embedContainer {
-                      box-sizing: border-box;
-                      display: table;
-                      margin: 0 auto;
-                      position: static;
-                      width: 100% !important;
-                    }
-                    .ml-form-embedWrapper {
-                      background-color: transparent !important;
-                      border: none !important;
-                      border-radius: 0 !important;
-                      box-sizing: border-box;
-                      display: inline-block !important;
-                      margin: 0;
-                      padding: 0;
-                      position: relative;
-                      width: 100% !important;
-                    }
-                    .ml-form-embedBody {
-                      padding: 0 !important;
-                    }
-                    .ml-form-embedContent {
-                      margin: 0 0 24px 0 !important;
-                      text-align: center !important;
-                    }
-                    .ml-form-embedContent h4 {
-                      display: none !important;
-                    }
-                    .ml-form-embedContent p {
-                      display: none !important;
-                    }
-                    .ml-form-formContent {
-                      margin: 0 !important;
-                    }
-                    .ml-form-horizontalRow {
-                      display: flex !important;
-                      flex-direction: column !important;
-                      gap: 16px !important;
-                    }
-                    @media (min-width: 768px) {
-                      .ml-form-horizontalRow {
-                        flex-direction: row !important;
-                      }
-                    }
-                    .ml-form-fieldRow input {
-                      background-color: rgba(255, 255, 255, 0.1) !important;
-                      color: #ffffff !important;
-                      border: 1px solid rgba(255, 255, 255, 0.2) !important;
-                      border-radius: 12px !important;
-                      padding: 20px 32px !important;
-                      font-size: 18px !important;
-                      width: 100% !important;
-                      margin: 0 !important;
-                      flex: 1 !important;
-                    }
-                    .ml-form-fieldRow input::placeholder {
-                      color: rgba(255, 255, 255, 0.6) !important;
-                    }
-                    .ml-form-fieldRow input:focus {
-                      outline: none !important;
-                      border-color: #06b6d4 !important;
-                      box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.3) !important;
-                    }
-                    .ml-form-embedSubmit button {
-                      background: linear-gradient(to right, #06b6d4, #8b5cf6) !important;
-                      border: none !important;
-                      border-radius: 12px !important;
-                      color: #ffffff !important;
-                      font-size: 18px !important;
-                      font-weight: 700 !important;
-                      padding: 20px 40px !important;
-                      min-width: 200px !important;
-                      transition: all 0.3s ease !important;
-                      cursor: pointer !important;
-                      box-shadow: 0 4px 14px 0 rgba(0, 118, 255, 0.39) !important;
-                    }
-                    .ml-form-embedSubmit button:hover {
-                      background: linear-gradient(to right, #0891b2, #7c3aed) !important;
-                      transform: scale(1.02) !important;
-                    }
-                    .ml-form-embedPermissions {
-                      display: none !important;
-                    }
-                    .ml-form-successBody {
-                      padding: 20px !important;
-                      text-align: center !important;
-                    }
-                    .ml-form-successContent h4 {
-                      color: #10b981 !important;
-                      font-size: 24px !important;
-                      margin: 0 0 8px 0 !important;
-                      display: flex !important;
-                      align-items: center !important;
-                      justify-content: center !important;
-                      gap: 8px !important;
-                    }
-                    .ml-form-successContent h4:before {
-                      content: "✓" !important;
-                      display: inline-block !important;
-                    }
-                    .ml-form-successContent p {
-                      color: #6ee7b7 !important;
-                      font-size: 16px !important;
-                      margin: 0 !important;
-                    }
-                  `}</style>
-
-                  <div id="mlb2-26652325" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-26652325">
-                    <div className="ml-form-align-center">
-                      <div className="ml-form-embedWrapper embedForm">
-                        <div className="ml-form-embedBody ml-form-embedBodyDefault row-form">
-                          <div className="ml-form-embedContent">
-                            <h4>Join Our Waiting List</h4>
-                            <p>Be the first to know! Sign up for launch notifications from AURORA9.</p>
-                          </div>
-
-                          <form 
-                            className="ml-block-form" 
-                            action="https://assets.mailerlite.com/jsonp/1561600/forms/155870684527986630/subscribe" 
-                            method="post" 
-                            target="_blank"
-                          >
-                            <div className="ml-form-formContent horozintalForm">
-                              <div className="ml-form-horizontalRow">
-                                <div className="ml-form-fieldRow ml-last-item horizontal-fields">
-                                  <div className="ml-field-group ml-field-email ml-validate-email ml-validate-required ml-input-horizontal">
-                                    <input 
-                                      aria-label="email" 
-                                      aria-required="true" 
-                                      type="email" 
-                                      className="form-control" 
-                                      name="fields[email]" 
-                                      placeholder="Enter your email address" 
-                                      autoComplete="email"
-                                    />
-                                  </div>
-                                </div>
-                                <div className="ml-button-horizontal">
-                                  <input type="hidden" name="ml-submit" value="1" />
-                                  <div className="ml-form-embedSubmit">
-                                    <button type="submit" className="primary">Join Waitlist</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <input type="hidden" name="anticsrf" value="true" />
-                          </form>
-                        </div>
-
-                        <div className="ml-form-successBody row-success" style={{display: 'none'}}>
-                          <div className="ml-form-successContent">
-                            <h4>Subscribed!</h4>
-                            <p>You have successfully joined our subscriber list.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* MailerLite Scripts */}
-                  <script 
-                    dangerouslySetInnerHTML={{
-                      __html: `
-                        function ml_webform_success_26652325() {
-                          var $ = ml_jQuery || jQuery;
-                          if ($) {
-                            $('.ml-subscribe-form-26652325 .row-success').show();
-                            $('.ml-subscribe-form-26652325 .row-form').hide();
-                          }
-                        }
-                      `
-                    }}
+              <div className="w-full max-w-2xl bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-md">
+                <form 
+                  action="https://assets.mailerlite.com/jsonp/1561600/forms/155870684527986630/subscribe" 
+                  method="post" 
+                  target="_blank"
+                  className="flex flex-col md:flex-row gap-4"
+                >
+                  <input 
+                    type="email" 
+                    name="fields[email]" 
+                    placeholder="Enter your email address" 
+                    className="flex-1 bg-white/10 border border-white/20 rounded-xl px-6 py-4 text-white focus:outline-none focus:border-cyan-400"
+                    required 
                   />
-                </div>
-              </motion.div>
+                  <button type="submit" className="bg-gradient-to-r from-cyan-500 to-purple-500 rounded-xl px-8 py-4 font-bold hover:scale-105 transition-transform">
+                    Join Waitlist
+                  </button>
+                </form>
+              </div>
             </div>
 
-            {/* Trust indicators */}
-            <div className="grid grid-cols-3 gap-8 text-center">
+            <div className="grid grid-cols-3 gap-8 text-center opacity-80">
               <div>
                 <div className="text-2xl font-bold text-cyan-300">Free</div>
                 <div className="text-purple-200 text-sm">Early Access</div>
@@ -291,29 +201,12 @@ export default function Home() {
             </div>
           </div>
         </motion.section>
-
-        {/* Core Features */}
-        <motion.section
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ staggerChildren: 0.3 }}
-          className="py-20 px-6 bg-white dark:bg-gray-900"
-        >
-          <FeatureSection />
-        </motion.section>
       </main>
-      
-      {/* MailerLite Scripts */}
+
       <Script 
         src="https://groot.mailerlite.com/js/w/webforms.min.js?v176e10baa5e7ed80d35ae235be3d5024" 
         strategy="lazyOnload"
       />
-      <Script id="mailerlite-init" strategy="lazyOnload">
-        {`
-          fetch("https://assets.mailerlite.com/jsonp/1561600/forms/155870684527986630/takel")
-        `}
-      </Script>
     </>
   );
 }

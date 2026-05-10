@@ -6,9 +6,19 @@ export default function VisionPage() {
   return (
     <main style={{ minHeight: '100vh', background: 'var(--background)' }}>
       {/* Hero Section */}
-      <div style={{ position: 'relative', overflow: 'hidden', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
+      <div style={{ 
+        position: 'relative', 
+        overflow: 'hidden', 
+        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', 
+        color: 'white' 
+      }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.1)' }}></div>
-        <div style={{ position: 'relative', maxWidth: '64rem', margin: '0 auto', padding: '5rem 1.5rem' }}>
+        <div style={{ 
+          position: 'relative', 
+          maxWidth: '64rem', 
+          margin: '0 auto', 
+          padding: '5rem 1.5rem' 
+        }}>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -37,7 +47,7 @@ export default function VisionPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Building the future where AI empowers every e-commerce dream
+              Architecting the foundational nervous system for a self-healing, global trade infrastructure.
             </p>
           </motion.div>
         </div>
@@ -67,7 +77,6 @@ export default function VisionPage() {
             overflow: 'hidden'
           }}
         >
-          {/* Floating particles */}
           <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
           <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
           
@@ -80,7 +89,7 @@ export default function VisionPage() {
             position: 'relative',
             zIndex: 1
           }}>
-            The Future of Autonomous Commerce
+            The 2030 Roadmap: Beyond Marketplace Management
           </h2>
           <p style={{ 
             color: '#cbd5e1',
@@ -92,9 +101,7 @@ export default function VisionPage() {
             position: 'relative',
             zIndex: 1
           }}>
-            AURORA9 envisions a world where e-commerce runs autonomously — intelligently driven by AI agents 
-            that think, optimize, and act with precision. Our goal is to build an ecosystem where every business, 
-            regardless of size, can scale effortlessly without being weighed down by manual operations.
+            AURORA9 envisions a world where global commerce operates with the fluidity of a biological system. Our vision extends past marketplace management into the orchestration of the entire supply chain—creating an autonomous infrastructure that anticipates disruptions and resolves them in real-time.
           </p>
           <p style={{ 
             color: '#cbd5e1',
@@ -105,14 +112,13 @@ export default function VisionPage() {
             position: 'relative',
             zIndex: 1
           }}>
-            We see a future where artificial intelligence doesn&apos;t just assist business operations — it becomes 
-            the backbone of intelligent commerce, making data-driven decisions in real-time while entrepreneurs 
-            focus on innovation and growth.
+            We see a future where interconnected AI agents unify 1P and 3P operations into a single, high-velocity stream. By optimizing every touchpoint from manufacturing to the last mile, we are building the backbone of intelligent commerce that empowers brands to grow without friction.
           </p>
         </motion.div>
 
         {/* Vision Pillars */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', marginBottom: '3rem' }}>
+          {/* Pillar 1 */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -120,7 +126,6 @@ export default function VisionPage() {
             style={{
               background: 'rgba(255, 255, 255, 0.1)',
               backdropFilter: 'blur(10px)',
-              WebkitBackdropFilter: 'blur(10px)',
               borderRadius: '1rem',
               padding: '2rem',
               border: '1px solid rgba(203, 213, 225, 0.3)',
@@ -129,48 +134,23 @@ export default function VisionPage() {
               overflow: 'hidden'
             }}
           >
-            {/* Floating particles */}
             <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            
             <div style={{
-              width: '3rem',
-              height: '3rem',
-              borderRadius: '0.5rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginBottom: '1.5rem',
-              background: 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)',
-              position: 'relative',
-              zIndex: 1
+              width: '3rem', height: '3rem', borderRadius: '0.5rem',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.5rem',
+              background: 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)'
             }}>
               <svg style={{ width: '1.5rem', height: '1.5rem', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
               </svg>
             </div>
-            <h3 style={{ 
-              fontSize: '1.25rem', 
-              fontWeight: '300', 
-              color: 'white', 
-              marginBottom: '1rem',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Universal Accessibility
-            </h3>
-            <p style={{ 
-              color: '#cbd5e1', 
-              fontWeight: '300', 
-              lineHeight: '1.6',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              We envision a world where advanced AI automation is accessible to every business, 
-              from solo entrepreneurs to global enterprises, democratizing the power of intelligent commerce.
+            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Global Supply Orchestration</h3>
+            <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
+              We envision a future where advanced logistics and 1P/3P operational intelligence are accessible to every brand, democratizing the power of enterprise-grade global trade infrastructure.
             </p>
           </motion.div>
 
+          {/* Pillar 2 */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -178,7 +158,6 @@ export default function VisionPage() {
             style={{
               background: 'rgba(255, 255, 255, 0.1)',
               backdropFilter: 'blur(10px)',
-              WebkitBackdropFilter: 'blur(10px)',
               borderRadius: '1rem',
               padding: '2rem',
               border: '1px solid rgba(203, 213, 225, 0.3)',
@@ -187,48 +166,22 @@ export default function VisionPage() {
               overflow: 'hidden'
             }}
           >
-            {/* Floating particles */}
-            <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            
             <div style={{
-              width: '3rem',
-              height: '3rem',
-              borderRadius: '0.5rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginBottom: '1.5rem',
-              background: 'linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)',
-              position: 'relative',
-              zIndex: 1
+              width: '3rem', height: '3rem', borderRadius: '0.5rem',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.5rem',
+              background: 'linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)'
             }}>
               <svg style={{ width: '1.5rem', height: '1.5rem', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
               </svg>
             </div>
-            <h3 style={{ 
-              fontSize: '1.25rem', 
-              fontWeight: '300', 
-              color: 'white', 
-              marginBottom: '1rem',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Predictive Intelligence
-            </h3>
-            <p style={{ 
-              color: '#cbd5e1', 
-              fontWeight: '300', 
-              lineHeight: '1.6',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Our vision includes AI systems that don&apos;t just respond to changes but predict them, 
-              anticipating market trends, customer behavior, and operational needs before they happen.
+            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Predictive Self-Healing</h3>
+            <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
+              Our vision includes AI ecosystems that don&apos;t just respond to disruptions but predict them—autonomously anticipating stockouts, shortage claims, and market shifts before they impact the bottom line.
             </p>
           </motion.div>
 
+          {/* Pillar 3 */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -236,7 +189,6 @@ export default function VisionPage() {
             style={{
               background: 'rgba(255, 255, 255, 0.1)',
               backdropFilter: 'blur(10px)',
-              WebkitBackdropFilter: 'blur(10px)',
               borderRadius: '1rem',
               padding: '2rem',
               border: '1px solid rgba(203, 213, 225, 0.3)',
@@ -245,50 +197,23 @@ export default function VisionPage() {
               overflow: 'hidden'
             }}
           >
-            {/* Floating particles */}
-            <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            
             <div style={{
-              width: '3rem',
-              height: '3rem',
-              borderRadius: '0.5rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginBottom: '1.5rem',
-              background: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)',
-              position: 'relative',
-              zIndex: 1
+              width: '3rem', height: '3rem', borderRadius: '0.5rem',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.5rem',
+              background: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)'
             }}>
               <svg style={{ width: '1.5rem', height: '1.5rem', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
               </svg>
             </div>
-            <h3 style={{ 
-              fontSize: '1.25rem', 
-              fontWeight: '300', 
-              color: 'white', 
-              marginBottom: '1rem',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Seamless Integration
-            </h3>
-            <p style={{ 
-              color: '#cbd5e1', 
-              fontWeight: '300', 
-              lineHeight: '1.6',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              We see a future where AI agents seamlessly integrate across all platforms and systems, 
-              creating a unified ecosystem that works harmoniously across every aspect of e-commerce.
+            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Interconnected Infrastructure</h3>
+            <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
+              We see a future where AI agents unify Seller and Vendor Central ecosystems with real-time API efficiency, creating a single source of truth across every touchpoint of the global digital economy.
             </p>
           </motion.div>
         </div>
 
-        {/* Future Impact */}
+        {/* Future Impact Section */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -296,7 +221,6 @@ export default function VisionPage() {
           style={{
             background: 'rgba(255, 255, 255, 0.1)',
             backdropFilter: 'blur(10px)',
-            WebkitBackdropFilter: 'blur(10px)',
             borderRadius: '1rem',
             padding: '2.5rem',
             marginBottom: '3rem',
@@ -306,77 +230,28 @@ export default function VisionPage() {
             overflow: 'hidden'
           }}
         >
-          {/* Floating particles */}
-          <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-          <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-          
           <h2 style={{ 
-            fontSize: '2.5rem', 
-            fontWeight: '300', 
-            marginBottom: '1.5rem', 
-            color: '#cbd5e1',
-            textAlign: 'center',
-            position: 'relative',
-            zIndex: 1
+            fontSize: '2.5rem', fontWeight: '300', marginBottom: '1.5rem', color: '#cbd5e1', textAlign: 'center' 
           }}>
             The AURORA9 Impact
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem', position: 'relative', zIndex: 1 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ 
-                fontSize: '2.5rem', 
-                fontWeight: '300', 
-                color: '#4facfe', 
-                marginBottom: '0.5rem' 
-              }}>
-                10M+
-              </div>
-              <p style={{ 
-                color: '#cbd5e1', 
-                fontWeight: '300', 
-                fontSize: '1rem' 
-              }}>
-                Businesses empowered by autonomous AI
-              </p>
+              <div style={{ fontSize: '2.5rem', fontWeight: '300', color: '#4facfe', marginBottom: '0.5rem' }}>100%</div>
+              <p style={{ color: '#cbd5e1', fontWeight: '300' }}>Unification of Seller & Vendor operations</p>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ 
-                fontSize: '2.5rem', 
-                fontWeight: '300', 
-                color: '#8b5cf6', 
-                marginBottom: '0.5rem' 
-              }}>
-                90%
-              </div>
-              <p style={{ 
-                color: '#cbd5e1', 
-                fontWeight: '300', 
-                fontSize: '1rem' 
-              }}>
-                Reduction in manual operations
-              </p>
+              <div style={{ fontSize: '2.5rem', fontWeight: '300', color: '#8b5cf6', marginBottom: '0.5rem' }}>95%</div>
+              <p style={{ color: '#cbd5e1', fontWeight: '300' }}>Mitigation of manual supply chain friction</p>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ 
-                fontSize: '2.5rem', 
-                fontWeight: '300', 
-                color: '#ec4899', 
-                marginBottom: '0.5rem' 
-              }}>
-                24/7
-              </div>
-              <p style={{ 
-                color: '#cbd5e1', 
-                fontWeight: '300', 
-                fontSize: '1rem' 
-              }}>
-                Continuous intelligent operation
-              </p>
+              <div style={{ fontSize: '2.5rem', fontWeight: '300', color: '#ec4899', marginBottom: '0.5rem' }}>24/7</div>
+              <p style={{ color: '#cbd5e1', fontWeight: '300' }}>Autonomous Governance & SP-API Optimization</p>
             </div>
           </div>
         </motion.div>
 
-        {/* Call to Action */}
+        {/* Call to Action Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -386,7 +261,6 @@ export default function VisionPage() {
           <div style={{
             background: 'rgba(255, 255, 255, 0.1)',
             backdropFilter: 'blur(10px)',
-            WebkitBackdropFilter: 'blur(10px)',
             borderRadius: '1rem',
             padding: '3rem 2rem',
             border: '1px solid rgba(203, 213, 225, 0.3)',
@@ -394,56 +268,20 @@ export default function VisionPage() {
             position: 'relative',
             overflow: 'hidden'
           }}>
-            {/* Floating particles */}
-            <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            
-            <h2 style={{ 
-              fontSize: '2.5rem', 
-              fontWeight: '300', 
-              marginBottom: '1.5rem', 
-              color: '#cbd5e1',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Shape the Future with Us
-            </h2>
+            <h2 style={{ fontSize: '2.5rem', fontWeight: '300', marginBottom: '1.5rem', color: '#cbd5e1' }}>Shape the Future with Us</h2>
             <p style={{ 
-              color: '#cbd5e1',
-              fontSize: '1.125rem',
-              fontWeight: '300',
-              lineHeight: '1.6',
-              marginBottom: '2rem',
-              maxWidth: '48rem',
-              margin: '0 auto 2rem',
-              position: 'relative',
-              zIndex: 1
+              color: '#cbd5e1', fontSize: '1.125rem', fontWeight: '300', lineHeight: '1.6', 
+              marginBottom: '2rem', maxWidth: '48rem', margin: '0 auto 2rem' 
             }}>
-              Join us in creating a world where AI-powered automation transforms every e-commerce business 
-              into an intelligent, self-operating system that works while you focus on what matters most.
+              Join us in creating a world where interconnected AI workforce masters the A-Z of 1P and 3P commerce—transforming global trade into an intelligent, self-healing nervous system.
             </p>
-            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', position: 'relative', zIndex: 1 }}>
+            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
               <a 
                 href="/pricing"
                 style={{
                   background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-                  color: 'white',
-                  fontWeight: '600',
-                  padding: '0.75rem 1.5rem',
-                  borderRadius: '0.5rem',
-                  transition: 'all 0.3s ease',
-                  textAlign: 'center',
-                  textDecoration: 'none',
-                  display: 'inline-block',
-                  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
-                }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)';
+                  color: 'white', fontWeight: '600', padding: '0.75rem 1.5rem', borderRadius: '0.5rem',
+                  textDecoration: 'none', display: 'inline-block'
                 }}
               >
                 Be Part of the Future
@@ -452,26 +290,8 @@ export default function VisionPage() {
                 href="/about/mission"
                 style={{
                   background: 'rgba(255, 255, 255, 0.1)',
-                  color: '#cbd5e1',
-                  fontWeight: '600',
-                  padding: '0.75rem 1.5rem',
-                  borderRadius: '0.5rem',
-                  transition: 'all 0.3s ease',
-                  textAlign: 'center',
-                  textDecoration: 'none',
-                  display: 'inline-block',
-                  border: '1px solid rgba(203, 213, 225, 0.3)',
-                  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
-                }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)';
-                  e.currentTarget.style.color = 'white';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)';
-                  e.currentTarget.style.color = '#cbd5e1';
+                  color: '#cbd5e1', fontWeight: '600', padding: '0.75rem 1.5rem', borderRadius: '0.5rem',
+                  textDecoration: 'none', display: 'inline-block', border: '1px solid rgba(203, 213, 225, 0.3)'
                 }}
               >
                 Our Mission

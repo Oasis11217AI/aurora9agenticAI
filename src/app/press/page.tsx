@@ -25,7 +25,7 @@ export default function PressPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Press Center
+              Foundational Press Center
             </h1>
             <p style={{ 
               fontSize: '1.5rem', 
@@ -38,7 +38,7 @@ export default function PressPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              We&apos;re preparing exciting news, media releases, and partnerships for AURORA9. Stay tuned for interviews, announcements, and future-facing insights into the autonomous AI revolution.
+              {"Archived news and upcoming breakthroughs regarding the unification of 1P and 3P global commerce through the AURORA9 autonomous workforce infrastructure."}
             </p>
           </motion.div>
         </div>
@@ -75,7 +75,7 @@ export default function PressPage() {
             
             <Image
               src="/AURORA9 Press.png"
-              alt="AURORA9 Coming Soon"
+              alt="AURORA9 1P/3P Unification"
               width={600}
               height={400}
               style={{
@@ -123,19 +123,19 @@ export default function PressPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Press Center Coming Soon
+              {"Disrupting the 1P/3P Divide"}
             </h2>
             <p style={{ 
               fontSize: '1.25rem', 
               color: '#cbd5e1',
               fontWeight: '300',
               lineHeight: '1.6',
-              maxWidth: '48rem',
+              maxWidth: '48rem', 
               margin: '0 auto',
               position: 'relative',
               zIndex: 1
             }}>
-              We&apos;re preparing exciting news, media releases, and partnerships for AURORA9. Stay tuned for interviews, announcements, and future-facing insights into the autonomous AI revolution.
+              {"We are preparing to unveil technical case studies, media releases, and strategic announcements regarding our proprietary Omni-Synergy Engine™ and ACRE™ infrastructure. Stay tuned for insights into the world's first self-healing nervous system for global trade."}
             </p>
           </div>
         </motion.div>
@@ -172,7 +172,7 @@ export default function PressPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Join the Waitlist
+              {"Monitor the Infrastructure"}
             </h2>
             <p style={{ 
               color: '#cbd5e1',
@@ -182,7 +182,7 @@ export default function PressPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Be the first to know about AURORA9 press releases and announcements.
+              {"Be the first to receive technical whitepapers, engine release notes, and official AURORA9 infrastructure breakthroughs."}
             </p>
 
             <form action="https://formspree.io/f/xqabvgdv" method="POST" style={{ display: 'flex', flexDirection: 'column', gap: '1rem', position: 'relative', zIndex: 1 }}>
@@ -204,14 +204,6 @@ export default function PressPage() {
                   fontWeight: '300',
                   transition: 'all 0.3s ease'
                 }}
-                onFocus={(e) => {
-                  e.currentTarget.style.borderColor = '#4facfe';
-                  e.currentTarget.style.boxShadow = '0 0 0 2px rgba(79, 172, 254, 0.2)';
-                }}
-                onBlur={(e) => {
-                  e.currentTarget.style.borderColor = 'rgba(203, 213, 225, 0.3)';
-                  e.currentTarget.style.boxShadow = 'none';
-                }}
               />
               <button
                 type="submit"
@@ -227,16 +219,8 @@ export default function PressPage() {
                   fontSize: '1rem',
                   boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
                 }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)';
-                }}
               >
-                Join the Waitlist
+                {"Get Infrastructure Updates"}
               </button>
             </form>
           </div>

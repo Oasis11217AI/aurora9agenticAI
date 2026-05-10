@@ -38,11 +38,11 @@ export default function AboutUsPage() {
               position: 'relative',
               zIndex: 1
             }}>
-              Pioneering the future of autonomous e-commerce operations with intelligent AI agents
+              The foundational nervous system for 1P and 3P commerce, powered by an interconnected workforce mitigating Amazon API overhead.
             </p>
           </motion.div>
         </div>
-        {/* Floating particles */}
+        {/* Floating particles preserved for layout fidelity */}
         <div style={{ position: 'absolute', top: '2.5rem', left: '2.5rem', width: '5rem', height: '5rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(1rem)' }}></div>
         <div style={{ position: 'absolute', bottom: '2.5rem', right: '2.5rem', width: '8rem', height: '8rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(1rem)' }}></div>
         <div style={{ position: 'absolute', top: '50%', left: '10%', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.05)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
@@ -68,7 +68,6 @@ export default function AboutUsPage() {
             overflow: 'hidden'
           }}
         >
-          {/* Floating particles */}
           <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
           <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
           
@@ -80,7 +79,7 @@ export default function AboutUsPage() {
             position: 'relative',
             zIndex: 1
           }}>
-            Revolutionizing E-commerce with AI
+            Orchestrating the Future of 1P and 3P Trade
           </h2>
           <p style={{ 
             color: '#cbd5e1',
@@ -91,9 +90,7 @@ export default function AboutUsPage() {
             position: 'relative',
             zIndex: 1
           }}>
-            AURORA9 is a fully autonomous Agentic AI workforce designed to revolutionize the way businesses 
-            manage and scale their e-commerce operations. We&apos;re not just building tools — we&apos;re building 
-            digital teammates that think, learn, and act autonomously.
+            AURORA9 is the world’s first interconnected AI workforce designed to orchestrate the full lifecycle of Seller and Vendor Central. We provide a self-healing ecosystem where specialized agents for Marketing, Inventory, and Customer Experience work in total synergy to eliminate shortage penalties and optimize Amazon SP-API usage fees.
           </p>
           <p style={{ 
             color: '#cbd5e1',
@@ -103,14 +100,13 @@ export default function AboutUsPage() {
             position: 'relative',
             zIndex: 1
           }}>
-            With cutting-edge AI agents, our platform eliminates repetitive, manual tasks and replaces them 
-            with smart, self-operating solutions tailored for exponential growth. Every aspect of your 
-            e-commerce business becomes intelligent, responsive, and always working.
+            With Progressive, Semi-Autonomous, and Fully Autonomous modes, AURORA9 provides the infrastructure for infinite operational elasticity. Our workforce handles the complex A-Z operations in real-time, governed by safety protocols that ensure every decision protects your brand equity and account health.
           </p>
         </motion.div>
 
         {/* Key Features Grid */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', marginBottom: '3rem' }}>
+          {/* Feature 1 */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -118,59 +114,21 @@ export default function AboutUsPage() {
             style={{
               background: 'rgba(255, 255, 255, 0.1)',
               backdropFilter: 'blur(10px)',
-              WebkitBackdropFilter: 'blur(10px)',
               borderRadius: '1rem',
               padding: '2rem',
               border: '1px solid rgba(203, 213, 225, 0.3)',
-              boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
               position: 'relative',
               overflow: 'hidden'
             }}
           >
-            {/* Floating particles */}
             <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            
-            <div style={{
-              width: '3rem',
-              height: '3rem',
-              borderRadius: '0.5rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginBottom: '1.5rem',
-              background: 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              <svg style={{ width: '1.5rem', height: '1.5rem', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-              </svg>
-            </div>
-            <h3 style={{ 
-              color: 'white', 
-              marginBottom: '1rem',
-              fontSize: '1.125rem', 
-              fontWeight: '300', 
-              lineHeight: '1.4',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Intelligent Automation
-            </h3>
-            <p style={{ 
-              color: '#cbd5e1',
-              fontSize: '0.875rem',
-              fontWeight: '300',
-              lineHeight: '1.6',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Our AI agents work autonomously to handle inventory management, order processing, 
-              customer service, and marketing optimization — freeing you to focus on strategic growth.
+            <h3 style={{ color: 'white', marginBottom: '1rem', fontSize: '1.125rem', fontWeight: '300' }}>Interconnected 1P/3P Orchestration</h3>
+            <p style={{ color: '#cbd5e1', fontSize: '0.875rem', fontWeight: '300', lineHeight: '1.6' }}>
+              Our agents synchronize data across Seller and Vendor Central. The Inventory Agent monitors stock levels and shortage claims to autonomously inform the Marketing Agent&apos;s ad spend strategy.
             </p>
           </motion.div>
 
+          {/* Feature 2 */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -178,59 +136,20 @@ export default function AboutUsPage() {
             style={{
               background: 'rgba(255, 255, 255, 0.1)',
               backdropFilter: 'blur(10px)',
-              WebkitBackdropFilter: 'blur(10px)',
               borderRadius: '1rem',
               padding: '2rem',
               border: '1px solid rgba(203, 213, 225, 0.3)',
-              boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
               position: 'relative',
               overflow: 'hidden'
             }}
           >
-            {/* Floating particles */}
-            <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            
-            <div style={{
-              width: '3rem',
-              height: '3rem',
-              borderRadius: '0.5rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginBottom: '1.5rem',
-              background: 'linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              <svg style={{ width: '1.5rem', height: '1.5rem', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-            <h3 style={{ 
-              color: 'white', 
-              marginBottom: '1rem',
-              fontSize: '1.125rem', 
-              fontWeight: '300', 
-              lineHeight: '1.4',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Scalable Performance
-            </h3>
-            <p style={{ 
-              color: '#cbd5e1',
-              fontSize: '0.875rem',
-              fontWeight: '300',
-              lineHeight: '1.6',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Built to grow with your business, our AI workforce scales instantly to match demand, 
-              ensuring consistent performance whether you&apos;re handling 100 or 100,000 orders.
+            <h3 style={{ color: 'white', marginBottom: '1rem', fontSize: '1.125rem', fontWeight: '300' }}>API Cost Optimization</h3>
+            <p style={{ color: '#cbd5e1', fontSize: '0.875rem', fontWeight: '300', lineHeight: '1.6' }}>
+              Built for the 2026 Amazon ecosystem, AURORA9 utilizes event-driven architectures to mitigate usage-based SP-API fees, ensuring high-frequency operations remain economically superior.
             </p>
           </motion.div>
 
+          {/* Feature 3 */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -238,56 +157,16 @@ export default function AboutUsPage() {
             style={{
               background: 'rgba(255, 255, 255, 0.1)',
               backdropFilter: 'blur(10px)',
-              WebkitBackdropFilter: 'blur(10px)',
               borderRadius: '1rem',
               padding: '2rem',
               border: '1px solid rgba(203, 213, 225, 0.3)',
-              boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
               position: 'relative',
               overflow: 'hidden'
             }}
           >
-            {/* Floating particles */}
-            <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            
-            <div style={{
-              width: '3rem',
-              height: '3rem',
-              borderRadius: '0.5rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginBottom: '1.5rem',
-              background: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              <svg style={{ width: '1.5rem', height: '1.5rem', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h3 style={{ 
-              color: 'white', 
-              marginBottom: '1rem',
-              fontSize: '1.125rem', 
-              fontWeight: '300', 
-              lineHeight: '1.4',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Real-Time Optimization
-            </h3>
-            <p style={{ 
-              color: '#cbd5e1',
-              fontSize: '0.875rem',
-              fontWeight: '300',
-              lineHeight: '1.6',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Continuous learning and adaptation ensure your operations are always optimized, 
-              with AI agents making data-driven decisions in real-time for maximum efficiency.
+            <h3 style={{ color: 'white', marginBottom: '1rem', fontSize: '1.125rem', fontWeight: '300' }}>Governed Autonomy</h3>
+            <p style={{ color: '#cbd5e1', fontSize: '0.875rem', fontWeight: '300', lineHeight: '1.6' }}>
+              Select your level of oversight. Our workforce supports three modes of autonomy, allowing you to approve every action or hand over the tactical A-Z within hard-coded safety guardrails.
             </p>
           </motion.div>
         </div>
@@ -302,43 +181,17 @@ export default function AboutUsPage() {
           <div style={{
             background: 'rgba(255, 255, 255, 0.1)',
             backdropFilter: 'blur(10px)',
-            WebkitBackdropFilter: 'blur(10px)',
             borderRadius: '1rem',
             padding: '3rem 2rem',
             border: '1px solid rgba(203, 213, 225, 0.3)',
-            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
             position: 'relative',
             overflow: 'hidden'
           }}>
-            {/* Floating particles */}
-            <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-            
-            <h2 style={{ 
-              fontSize: '2.5rem', 
-              fontWeight: '300', 
-              marginBottom: '1.5rem', 
-              color: '#cbd5e1',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Ready to Transform Your E-commerce Business?
-            </h2>
-            <p style={{ 
-              color: '#cbd5e1',
-              fontSize: '1.125rem',
-              fontWeight: '300',
-              lineHeight: '1.6',
-              marginBottom: '2rem',
-              maxWidth: '48rem',
-              margin: '0 auto 2rem',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              Join the future of autonomous e-commerce with AURORA9&apos;s AI-powered workforce. 
-              Let our intelligent agents handle the operations while you focus on growing your business.
+            <h2 style={{ fontSize: '2.5rem', fontWeight: '300', marginBottom: '1.5rem', color: '#cbd5e1' }}>Ready to Orchestrate the Future of Your Brand?</h2>
+            <p style={{ color: '#cbd5e1', fontSize: '1.125rem', fontWeight: '300', lineHeight: '1.6', marginBottom: '2rem', maxWidth: '48rem', margin: '0 auto 2rem' }}>
+              Transition from an operational manager to a strategic architect. Deploy your interconnected AI workforce and master the complexities of 1P and 3P commerce from A to Z.
             </p>
-            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', position: 'relative', zIndex: 1 }}>
+            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
               <a 
                 href="/pricing"
                 style={{
@@ -347,19 +200,7 @@ export default function AboutUsPage() {
                   fontWeight: '600',
                   padding: '0.75rem 1.5rem',
                   borderRadius: '0.5rem',
-                  transition: 'all 0.3s ease',
-                  textAlign: 'center',
-                  textDecoration: 'none',
-                  display: 'inline-block',
-                  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
-                }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)';
+                  textDecoration: 'none'
                 }}
               >
                 Get Started
@@ -372,22 +213,8 @@ export default function AboutUsPage() {
                   fontWeight: '600',
                   padding: '0.75rem 1.5rem',
                   borderRadius: '0.5rem',
-                  transition: 'all 0.3s ease',
-                  textAlign: 'center',
                   textDecoration: 'none',
-                  display: 'inline-block',
-                  border: '1px solid rgba(203, 213, 225, 0.3)',
-                  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
-                }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)';
-                  e.currentTarget.style.color = 'white';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)';
-                  e.currentTarget.style.color = '#cbd5e1';
+                  border: '1px solid rgba(203, 213, 225, 0.3)'
                 }}
               >
                 Learn More

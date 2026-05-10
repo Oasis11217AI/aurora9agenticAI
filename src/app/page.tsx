@@ -26,12 +26,14 @@ export default function Home() {
           >
             <h1 className="text-display mb-6 leading-tight">
               <span className="gradient-text" style={{ fontWeight: '300' }}>
-                The Foundational Nervous System for 1P and 3P Global Commerce
+                {"The Foundational Nervous System for 1P and 3P Global Commerce"}
               </span>
             </h1>
             
             <p className="text-body-large mb-12 max-w-4xl mx-auto leading-relaxed" style={{ color: '#cbd5e1', fontWeight: '300' }}>
-              Deploy an interconnected AI workforce powered by <span className="font-semibold" style={{ color: 'var(--accent)' }}>Proprietary Synergy Engines</span> to orchestrate Marketing, Inventory, and CX from A to Z while mitigating Amazon SP-API fees.
+              {"Deploy an interconnected AI workforce powered by "} 
+              <span className="font-semibold" style={{ color: 'var(--accent)' }}>Proprietary Synergy Engines</span> 
+              {" to orchestrate Marketing, Inventory, and CX from A to Z while mitigating Amazon SP-API fees."}
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center mb-16">
@@ -57,19 +59,20 @@ export default function Home() {
               <a href="#waitlist-section" style={{ background: 'white', color: '#764ba2', fontWeight: '600', padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none' }}>
                 Join the Waitlist
               </a>
-              <a href="/about" style={{ background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: '600', padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none', border: '1px solid white' }}>
+              {/* UPDATED: Redirected to Platform Architecture Index */}
+              <a href="/site-index" style={{ background: 'rgba(255,255,255,0.1)', color: 'white', fontWeight: '600', padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none', border: '1px solid white' }}>
                 Our Architecture
               </a>
             </div>
           </motion.div>
         </section>
 
-        {/* REFINED Specialized Agent Intelligence Section */}
+        {/* Specialized Agent Intelligence Section */}
         <div style={{ maxWidth: '96rem', margin: '0 auto', padding: '5rem 1.5rem' }}>
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
             <h2 style={{ fontSize: '2.5rem', fontWeight: '300', color: '#cbd5e1' }}>Specialized Agent Intelligence</h2>
             <p style={{ color: '#94a3b8', fontSize: '1.125rem', marginTop: '1rem', fontWeight: '300' }}>
-              Proprietary AWS-native engines designed for the 2026 Amazon ecosystem.
+              {"Proprietary AWS-native engines designed for the 2026 Amazon ecosystem."}
             </p>
           </div>
 
@@ -94,7 +97,7 @@ export default function Home() {
               <div style={{ color: '#4facfe', fontSize: '0.75rem', fontWeight: '700', textTransform: 'uppercase', marginBottom: '1rem', letterSpacing: '0.05em' }}>Proprietary Engine</div>
               <h3 style={{ color: 'white', fontSize: '1.5rem', fontWeight: '300', marginBottom: '1rem' }}>Omni-Synergy Engine™</h3>
               <p style={{ color: '#cbd5e1', lineHeight: '1.7', fontWeight: '300', fontSize: '0.9375rem' }}>
-                The infrastructure that breaks down data silos, synchronizing ads, SEO, and pricing decisions across Seller and Vendor Central in real-time.
+                {"The infrastructure that breaks down data silos, synchronizing ads, SEO, and pricing decisions across Seller and Vendor Central in real-time."}
               </p>
             </motion.div>
 
@@ -117,7 +120,7 @@ export default function Home() {
               <div style={{ color: '#8b5cf6', fontSize: '0.75rem', fontWeight: '700', textTransform: 'uppercase', marginBottom: '1rem', letterSpacing: '0.05em' }}>Specialized Agent</div>
               <h3 style={{ color: 'white', fontSize: '1.5rem', fontWeight: '300', marginBottom: '1rem' }}>Quantum Inventory Master</h3>
               <p style={{ color: '#cbd5e1', lineHeight: '1.7', fontWeight: '300', fontSize: '0.9375rem' }}>
-                Fee-aware modeling that autonomously manages inbound optimization and prevents shortage claims while mitigating Amazon SP-API usage fees.
+                {"Fee-aware modeling that autonomously manages inbound optimization and prevents shortage claims while mitigating Amazon SP-API usage fees."}
               </p>
             </motion.div>
 
@@ -140,7 +143,7 @@ export default function Home() {
               <div style={{ color: '#06b6d4', fontSize: '0.75rem', fontWeight: '700', textTransform: 'uppercase', marginBottom: '1rem', letterSpacing: '0.05em' }}>Governance Engine</div>
               <h3 style={{ color: 'white', fontSize: '1.5rem', fontWeight: '300', marginBottom: '1rem' }}>Probabilistic Outcome Navigator™</h3>
               <p style={{ color: '#cbd5e1', lineHeight: '1.7', fontWeight: '300', fontSize: '0.9375rem' }}>
-                Ensures Governed Autonomy by providing explainable &quot;Why Cards&quot; for every action, detailing the probability-based outcome of strategic shifts.
+                {"Ensures Governed Autonomy by providing explainable \"Why Cards\" for every action, detailing the probability-based outcome of strategic shifts."}
               </p>
             </motion.div>
 
@@ -159,8 +162,8 @@ export default function Home() {
         >
           <div className="max-w-4xl mx-auto text-center relative z-10">
             <h2 className="text-4xl font-light mb-6">
-              Be First to Access the Future
-              <span className="block" style={{ color: 'var(--accent)' }}>of 1P and 3P Automation</span>
+              {"Be First to Access the Future"}
+              <span className="block" style={{ color: 'var(--accent)' }}>{"of 1P and 3P Automation"}</span>
             </h2>
             
             <div className="flex justify-center mb-12">

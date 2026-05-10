@@ -19,7 +19,7 @@ export default function PricingPage() {
         { text: "Semi-Autonomous Execution", check: false },
         { text: "SP-API Fee Mitigation Engine", check: false }
       ],
-      buttonText: "Start Free Audit"
+      buttonText: "Coming Soon"
     },
     {
       title: "MANAGER",
@@ -36,7 +36,7 @@ export default function PricingPage() {
         { text: "Up to 500 SKUs", check: true },
         { text: "Omni-Synergy™ Integration", check: false }
       ],
-      buttonText: "Upgrade & Launch"
+      buttonText: "Coming Soon"
     },
     {
       title: "DIRECTOR",
@@ -53,7 +53,7 @@ export default function PricingPage() {
         { text: "ACRE™ Adaptive Recalibration", check: true },
         { text: "Unlimited Global SKUs", check: true }
       ],
-      buttonText: "Upgrade & Launch"
+      buttonText: "Coming Soon"
     },
     {
       title: "BESPOKE",
@@ -69,7 +69,7 @@ export default function PricingPage() {
         { text: "Multi-Entity Management", check: true },
         { text: "Probabilistic Risk Modeling", check: true }
       ],
-      buttonText: "Contact Sales"
+      buttonText: "Coming Soon"
     }
   ];
 
@@ -119,9 +119,9 @@ export default function PricingPage() {
       `}</style>
       <main style={{ minHeight: '100vh', background: 'var(--background)' }}>
       {/* Hero Section */}
-      <div style={{ position: 'relative', overflow: 'hidden', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
+      <div style={{ position: 'relative', overflow: 'hidden', background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 100%)', color: 'white' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.1)' }}></div>
-        <div style={{ position: 'relative', maxWidth: '64rem', margin: '0 auto', padding: '5rem 1.5rem' }}>
+        <div style={{ position: 'relative', maxWidth: '64rem', margin: '0 auto', padding: '8rem 1.5rem 5rem' }}>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -150,7 +150,7 @@ export default function PricingPage() {
               position: 'relative',
               zIndex: 1
             }}>
-                Aligning your operational costs with verified autonomous performance across the global supply chain.
+                {"Aligning your operational costs with verified autonomous performance across the global supply chain."}
             </p>
           </motion.div>
         </div>
@@ -178,7 +178,6 @@ export default function PricingPage() {
                 overflow: 'hidden',
                 transition: 'all 0.3s ease'
               }}
-              whileHover={{ scale: 1.02 }}
             >
               {plan.highlighted && (
                 <div style={{ position: 'absolute', top: '-1rem', left: '50%', transform: 'translateX(-50%)', background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)', color: 'white', padding: '0.5rem 1.5rem', borderRadius: '9999px', fontSize: '0.875rem', fontWeight: '600', zIndex: 2 }}>
@@ -208,20 +207,22 @@ export default function PricingPage() {
                 ))}
               </ul>
 
-              <a href="/pricing" style={{ 
-                display: 'block', 
+              {/* DISABLED BUTTON FOR PRE-LAUNCH */}
+              <div style={{ 
                 width: '100%', 
                 padding: '1rem', 
                 borderRadius: '0.5rem', 
                 fontWeight: '600', 
                 textAlign: 'center', 
-                background: plan.highlighted ? 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' : 'rgba(255,255,255,0.1)', 
+                background: plan.highlighted ? 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' : 'rgba(255,255,255,0.05)', 
                 color: 'white', 
-                textDecoration: 'none', 
-                border: plan.highlighted ? 'none' : '1px solid rgba(255,255,255,0.2)' 
+                border: '1px solid rgba(255,255,255,0.1)',
+                opacity: 0.5,
+                cursor: 'not-allowed',
+                filter: 'grayscale(0.5)'
               }}>
                 {plan.buttonText}
-              </a>
+              </div>
             </motion.div>
           ))}
         </div>
@@ -250,7 +251,7 @@ export default function PricingPage() {
                      Infrastructure Subscription
                   </h3>
                   <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-                    The base rate ensures 24/7 account health monitoring and the foundational nervous system uptime required for event-driven 1P/3P orchestration.
+                    {"The base rate ensures 24/7 account health monitoring and the foundational nervous system uptime required for event-driven 1P/3P orchestration."}
                   </p>
                 </div>
                 <div>
@@ -259,14 +260,14 @@ export default function PricingPage() {
                      Performance Service Fee
                   </h3>
                   <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-                    Our model aligns directly with your success. Variable fees are only applied to verified ROI generated through autonomous agent actions.
+                    {"Our model aligns directly with your success. Variable fees are only applied to verified ROI generated through autonomous agent actions."}
                   </p>
                 </div>
             </div>
           </div>
         </motion.div>
 
-        {/* FAQ Section */}
+        {/* Strategic FAQ */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -318,12 +319,12 @@ export default function PricingPage() {
             border: '1px solid rgba(203, 213, 225, 0.3)',
           }}>
             <h2 style={{ fontSize: '3rem', fontWeight: '300', color: '#cbd5e1', marginBottom: '1.5rem' }}>
-              Ready to Orchestrate Your Future?
+              {"Ready to Orchestrate Your Future?"}
             </h2>
             <p style={{ fontSize: '1.125rem', color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6', marginBottom: '2.5rem', maxWidth: '42rem', margin: '0 auto 2.5rem' }}>
-              Join the elite group of brands transforming global commerce through interconnected AI workforce governance.
+              {"Join the elite group of brands transforming global commerce through interconnected AI workforce governance."}
             </p>
-            <a href="/pricing" style={{
+            <a href="#waitlist-section" style={{
               display: 'inline-block',
               padding: '1.25rem 3rem',
               borderRadius: '0.5rem',

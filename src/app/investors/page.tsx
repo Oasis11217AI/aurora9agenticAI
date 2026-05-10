@@ -1,349 +1,182 @@
-// ✅ src/app/investors/page.tsx
 "use client";
 
+import React from "react";
+import { motion } from "framer-motion";
 import InvestorForm from '@/components/forms/InvestorForm';
 
 export default function InvestorsPage() {
+  const roadmapPhases = [
+    {
+      title: "Phase I: Foundation & Protocol Refinement",
+      timeline: "Months 0-18",
+      milestone: "100 High-Value Enterprise Nodes",
+      focus: [
+        "Finalize ACRE™ and PON™ engine benchmarks.",
+        "Deep-tissue integration with Top-Tier 1P/3P hybrid brands.",
+        "Refinement of governed autonomy safety protocols."
+      ]
+    },
+    {
+      title: "Phase II: Operational Acceleration",
+      timeline: "Months 18-36",
+      milestone: "1,000 Orchestrated Units",
+      focus: [
+        "Expansion into the mid-market aggregator ecosystem.",
+        "Launch of the Bespoke Agent Development API.",
+        "Optimization of SP-API fee mitigation at scale."
+      ]
+    },
+    {
+      title: "Phase III: Global Ecosystem Leadership",
+      timeline: "Year 5",
+      milestone: "3,000 Autonomous Nodes",
+      focus: [
+        "AURORA9 becomes the standard nervous system for global trade.",
+        "Total unification of 1P/3P logistics and marketing orchestration.",
+        "Dominant market position in autonomous brand governance."
+      ]
+    }
+  ];
+
   return (
-    <main style={{ minHeight: '100vh', background: 'var(--background)' }}>
+    <main style={{ minHeight: '100vh', background: 'var(--background)', color: 'white' }}>
+      
       {/* Hero Section */}
-      <div style={{ position: 'relative', overflow: 'hidden', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
-        <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.1)' }}></div>
-        <div style={{ position: 'relative', maxWidth: '112rem', margin: '0 auto', padding: '5rem 1.5rem 4rem' }}>
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h1 style={{ 
-              fontSize: '4rem', 
+      <div style={{ position: 'relative', overflow: 'hidden', background: 'var(--gradient-cosmic)', padding: '8rem 1.5rem 5rem' }}>
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.2)' }}></div>
+        <div style={{ position: 'relative', maxWidth: '80rem', margin: '0 auto', textAlign: 'center' }}>
+          <motion.h1 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            style={{ 
+              fontSize: 'clamp(2.5rem, 6vw, 4rem)', 
               fontWeight: '300', 
-              marginBottom: '2rem',
-              color: 'white',
-              textShadow: '0 4px 8px rgba(0,0,0,0.3)',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              The Infrastructure of Global Trade
-            </h1>
-            <p style={{ 
-              fontSize: '1.5rem', 
-              fontWeight: '300',
-              color: 'white',
-              maxWidth: '64rem', 
-              margin: '0 auto',
-              lineHeight: '1.6',
-              textShadow: '0 2px 4px rgba(0,0,0,0.2)',
-              position: 'relative',
-              zIndex: 1
-            }}>
-              AURORA9 is architecting the foundational nervous system for 1P and 3P commerce. 
-              We are building the defensible infrastructure that unifies global supply chains into a single, self-healing ecosystem.
-            </p>
-          </div>
+              marginBottom: '1.5rem',
+              textShadow: '0 4px 8px rgba(0,0,0,0.3)'
+            }}
+          >
+            {"The Infrastructure of Global Trade"}
+          </motion.h1>
+          <p style={{ 
+            maxWidth: '45rem', 
+            margin: '0 auto', 
+            color: '#cbd5e1', 
+            fontWeight: '300', 
+            fontSize: '1.25rem', 
+            lineHeight: '1.6' 
+          }}>
+            {"AURORA9 is architecting the foundational nervous system for 1P and 3P commerce. We are building the defensible infrastructure that unifies global supply chains into a single, self-healing ecosystem."}
+          </p>
         </div>
-        {/* Floating particles */}
-        <div style={{ position: 'absolute', top: '2.5rem', left: '2.5rem', width: '5rem', height: '5rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(1rem)' }}></div>
-        <div style={{ position: 'absolute', bottom: '2.5rem', right: '2.5rem', width: '8rem', height: '8rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(1rem)' }}></div>
-        <div style={{ position: 'absolute', top: '50%', left: '10%', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.05)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-        <div style={{ position: 'absolute', bottom: '20%', right: '15%', width: '4rem', height: '4rem', background: 'rgba(255,255,255,0.05)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
       </div>
 
-      {/* Main Content */}
-      <div style={{ maxWidth: '96rem', margin: '0 auto', padding: '0 1.5rem 5rem' }}>
-        {/* Investment Opportunity Overview */}
-        <div style={{
-          background: 'rgba(255, 255, 255, 0.1)',
-          backdropFilter: 'blur(10px)',
-          WebkitBackdropFilter: 'blur(10px)',
-          borderRadius: '1rem',
-          padding: '2.5rem',
-          border: '1px solid rgba(203, 213, 225, 0.3)',
-          marginBottom: '3rem',
-          boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
-        }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '3rem', alignItems: 'center' }}>
-            <div>
-              <h2 style={{ 
-                fontSize: '1.875rem', 
-                fontWeight: '300', 
-                marginBottom: '1.5rem',
-                color: '#cbd5e1'
-              }}>
-                The Trillion-Dollar Complexity Gap
-              </h2>
-              <p style={{ 
-                color: '#cbd5e1', 
-                fontSize: '1.125rem', 
-                lineHeight: '1.6', 
-                marginBottom: '1.5rem',
-                fontWeight: '300'
-              }}>
-                As Amazon evolves, the barrier between Seller (3P) and Vendor Central (1P) has created massive operational friction. 
-                AURORA9 captures this value by deploying an interconnected workforce that eliminates silos, mitigates SP-API usage fees, 
-                and prevents shortage claims for global brands.
-              </p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                  <div style={{ width: '0.5rem', height: '0.5rem', background: '#667eea', borderRadius: '50%' }}></div>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Proprietary Omni-Synergy Engine™ infrastructure</span>
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                  <div style={{ width: '0.5rem', height: '0.5rem', background: '#764ba2', borderRadius: '50%' }}></div>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Active Amazon SP-API fee mitigation logic</span>
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                  <div style={{ width: '0.5rem', height: '0.5rem', background: '#f093fb', borderRadius: '50%' }}></div>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Foundational supply chain self-healing</span>
-                </div>
-              </div>
-            </div>
-            <div style={{
-              background: 'linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%)',
-              borderRadius: '0.75rem',
-              padding: '2rem',
-              border: '1px solid rgba(102, 126, 234, 0.3)',
-              backdropFilter: 'blur(10px)',
-              WebkitBackdropFilter: 'blur(10px)'
-            }}>
-              <h3 style={{ fontSize: '1.5rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Market Scope</h3>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Target GMV Ecosystem</span>
-                  <span style={{ color: 'white', fontWeight: '300' }}>$1.2T</span>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>1P/3P Unification Potential</span>
-                  <span style={{ color: 'white', fontWeight: '300' }}>100%</span>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ color: '#cbd5e1', fontWeight: '300' }}>Shortage Mitigation Accuracy</span>
-                  <span style={{ color: 'white', fontWeight: '300' }}>95%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Why Invest Section */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '2rem', marginBottom: '3rem' }}>
-          <div style={{
-            background: 'rgba(255, 255, 255, 0.1)',
-            backdropFilter: 'blur(10px)',
-            WebkitBackdropFilter: 'blur(10px)',
-            borderRadius: '0.75rem',
-            padding: '2rem',
-            border: '1px solid rgba(203, 213, 225, 0.3)',
-            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
-            transition: 'all 0.3s ease'
-          }}>
-            <div style={{ 
-              width: '3rem', 
-              height: '3rem', 
-              background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', 
-              borderRadius: '0.5rem', 
-              display: 'flex', 
-              alignItems: 'center', 
-              justifyContent: 'center', 
-              marginBottom: '1.5rem' 
-            }}>
-              <svg style={{ width: '1.5rem', height: '1.5rem', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-              </svg>
-            </div>
-            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Defensible Intellectual Property</h3>
-            <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-              Anchored by the Omni-Synergy Engine™, ACRE™, and PON™, our technology is a specialized infrastructure moat that cannot be easily replicated by generic AI wrappers.
-            </p>
-          </div>
-
-          <div style={{
-            background: 'rgba(255, 255, 255, 0.1)',
-            backdropFilter: 'blur(10px)',
-            WebkitBackdropFilter: 'blur(10px)',
-            borderRadius: '0.75rem',
-            padding: '2rem',
-            border: '1px solid rgba(203, 213, 225, 0.3)',
-            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
-            transition: 'all 0.3s ease'
-          }}>
-            <div style={{ 
-              width: '3rem', 
-              height: '3rem', 
-              background: 'linear-gradient(135deg, #764ba2 0%, #f093fb 100%)', 
-              borderRadius: '0.5rem', 
-              display: 'flex', 
-              alignItems: 'center', 
-              justifyContent: 'center', 
-              marginBottom: '1.5rem' 
-            }}>
-              <svg style={{ width: '1.5rem', height: '1.5rem', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-              </svg>
-            </div>
-            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>Margin Protection Infrastructure</h3>
-            <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-              We transform operational costs into profit centers. By mitigating Amazon overhead and SP-API usage fees, we provide institutional-grade margin defense.
-            </p>
-          </div>
-
-          <div style={{
-            background: 'rgba(255, 255, 255, 0.1)',
-            backdropFilter: 'blur(10px)',
-            WebkitBackdropFilter: 'blur(10px)',
-            borderRadius: '0.75rem',
-            padding: '2rem',
-            border: '1px solid rgba(203, 213, 225, 0.3)',
-            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
-            transition: 'all 0.3s ease'
-          }}>
-            <div style={{ 
-              width: '3rem', 
-              height: '3rem', 
-              background: 'linear-gradient(135deg, #f093fb 0%, #667eea 100%)', 
-              borderRadius: '0.5rem', 
-              display: 'flex', 
-              alignItems: 'center', 
-              justifyContent: 'center', 
-              marginBottom: '1.5rem' 
-            }}>
-              <svg style={{ width: '1.5rem', height: '1.5rem', color: 'white' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
-            </div>
-            <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '1rem' }}>AWS-Native Scalability</h3>
-            <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-              Built on a robust AWS-native architecture, AURORA9 is designed to survive Amazon regime shifts while scaling to handle the world&apos;s largest trade entities.
-            </p>
-          </div>
-        </div>
-
-        {/* Roadmap Section */}
-        <div style={{
-          background: 'rgba(255, 255, 255, 0.1)',
-          backdropFilter: 'blur(10px)',
-          WebkitBackdropFilter: 'blur(10px)',
-          borderRadius: '1rem',
-          padding: '2.5rem',
-          border: '1px solid rgba(203, 213, 225, 0.3)',
-          marginBottom: '3rem',
-          boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
-          position: 'relative',
-          overflow: 'hidden'
-        }}>
-          {/* Floating particles */}
-          <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-          <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-          
-          <h2 style={{ 
-            fontSize: '1.875rem', 
-            fontWeight: '300', 
-            textAlign: 'center', 
-            marginBottom: '2.5rem', 
-            color: '#cbd5e1', 
-            position: 'relative', 
-            zIndex: 1
-          }}>
-            Infrastructure Roadmap & Milestones
-          </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
-            <div style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
-              <div style={{ 
-                width: '4rem', 
-                height: '4rem', 
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', 
-                borderRadius: '50%', 
-                display: 'flex', 
-                alignItems: 'center', 
-                justifyContent: 'center', 
-                margin: '0 auto 1rem',
-                boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
-              }}>
-                <span style={{ color: 'white', fontWeight: '300', fontSize: '1.125rem' }}>P1</span>
-              </div>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '0.75rem' }}>Market Entry & Unification</h3>
-              <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-                Mastering 1P/3P Amazon orchestration and SP-API fee mitigation for enterprise-tier global brands.
-              </p>
-            </div>
-            <div style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
-              <div style={{ 
-                width: '4rem', 
-                height: '4rem', 
-                background: 'linear-gradient(135deg, #764ba2 0%, #f093fb 100%)', 
-                borderRadius: '50%', 
-                display: 'flex', 
-                alignItems: 'center', 
-                justifyContent: 'center', 
-                margin: '0 auto 1rem',
-                boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
-              }}>
-                <span style={{ color: 'white', fontWeight: '300', fontSize: '1.125rem' }}>P2</span>
-              </div>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '0.75rem' }}>Global Trade Integration</h3>
-              <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-                Expanding the Omni-Synergy Engine™ into Walmart, Shopify, and global trade port logistics.
-              </p>
-            </div>
-            <div style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
-              <div style={{ 
-                width: '4rem', 
-                height: '4rem', 
-                background: 'linear-gradient(135deg, #f093fb 0%, #667eea 100%)', 
-                borderRadius: '50%', 
-                display: 'flex', 
-                alignItems: 'center', 
-                justifyContent: 'center', 
-                margin: '0 auto 1rem',
-                boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
-              }}>
-                <span style={{ color: 'white', fontWeight: '300', fontSize: '1.125rem' }}>P3</span>
-              </div>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: '300', color: 'white', marginBottom: '0.75rem' }}>Self-Healing Commerce</h3>
-              <p style={{ color: '#cbd5e1', fontWeight: '300', lineHeight: '1.6' }}>
-                Deployment of a fully autonomous global infrastructure capable of predictive self-healing logistics.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Investment Form Section */}
-        <div style={{
-          background: 'rgba(255, 255, 255, 0.1)',
-          backdropFilter: 'blur(10px)',
-          WebkitBackdropFilter: 'blur(10px)',
-          borderRadius: '1rem',
-          padding: '2.5rem',
-          border: '1px solid rgba(203, 213, 225, 0.3)',
-          boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
-          position: 'relative',
-          overflow: 'hidden'
-        }}>
-          {/* Floating particles */}
-          <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: '2rem', height: '2rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-          <div style={{ position: 'absolute', bottom: '1rem', right: '1rem', width: '3rem', height: '3rem', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(0.5rem)' }}></div>
-          
-          <div style={{ textAlign: 'center', marginBottom: '2.5rem', position: 'relative', zIndex: 1 }}>
-            <h2 style={{ 
-              fontSize: '1.875rem', 
-              fontWeight: '300', 
-              marginBottom: '1rem', 
-              color: '#cbd5e1'
-            }}>
-              Invest in the Future of Infrastructure
+      <div style={{ maxWidth: '90rem', margin: '0 auto', padding: '5rem 1.5rem' }}>
+        
+        {/* Scaling Roadmap Section */}
+        <section style={{ marginBottom: '8rem' }}>
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <h2 style={{ fontSize: '2.25rem', fontWeight: '300', color: '#4facfe' }}>
+              {"Scaling Roadmap: The 3,000 Node Vision"}
             </h2>
-            <p style={{ 
-              color: '#cbd5e1', 
-              fontSize: '1.125rem', 
-              maxWidth: '48rem', 
-              margin: '0 auto', 
-              fontWeight: '300', 
-              lineHeight: '1.6'
-            }}>
-              Join us as we redefine the structural limits of global trade. 
-              Fill out the form below to receive our investor deck and schedule a briefing with our executive team.
+            <p style={{ color: '#94a3b8', marginTop: '1rem', fontWeight: '300' }}>
+              {"A phased approach to institutional-grade autonomous orchestration."}
             </p>
           </div>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2.5rem' }}>
+            {roadmapPhases.map((phase, idx) => (
+              <motion.div 
+                key={idx}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: idx * 0.2 }}
+                style={{
+                  background: 'rgba(255, 255, 255, 0.03)',
+                  backdropFilter: 'blur(10px)',
+                  padding: '3rem 2rem',
+                  borderRadius: '1.5rem',
+                  border: '1px solid rgba(255, 255, 255, 0.1)',
+                  position: 'relative',
+                  overflow: 'hidden'
+                }}
+              >
+                <div style={{ fontSize: '0.85rem', color: '#06b6d4', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '0.75rem', fontWeight: '600' }}>
+                  {phase.timeline}
+                </div>
+                <h3 style={{ fontSize: '1.25rem', fontWeight: '400', marginBottom: '1.5rem', color: 'white' }}>{phase.title}</h3>
+                <div style={{ fontSize: '1.75rem', fontWeight: '300', marginBottom: '2rem', color: '#fff', borderLeft: '3px solid #4facfe', paddingLeft: '1rem' }}>
+                  {phase.milestone}
+                </div>
+                <ul style={{ listStyle: 'none', padding: 0, color: '#94a3b8', fontSize: '0.95rem', lineHeight: '1.7', fontWeight: '300' }}>
+                  {phase.focus.map((item, i) => (
+                    <li key={i} style={{ marginBottom: '1.25rem', display: 'flex', gap: '0.75rem' }}>
+                      <span style={{ color: '#4facfe', fontWeight: 'bold' }}>{"•"}</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+            ))}
+          </div>
+        </section>
+
+        {/* Investment Pillars */}
+        <div style={{ 
+          display: 'grid', 
+          gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', 
+          gap: '5rem', 
+          marginBottom: '8rem',
+          padding: '4rem',
+          background: 'rgba(255,255,255,0.02)',
+          borderRadius: '2rem',
+          border: '1px solid rgba(255,255,255,0.05)'
+        }}>
+          <div>
+            <h2 style={{ fontSize: '2rem', fontWeight: '300', marginBottom: '1.5rem', color: '#cbd5e1' }}>{"Unification of Global Trade"}</h2>
+            <p style={{ color: '#94a3b8', fontWeight: '300', lineHeight: '1.8', fontSize: '1.1rem' }}>
+              {"AURORA9 leverages over 15 years of marketplace architecture to solve the systemic fragmentation of Amazon operations. By unifying Seller and Vendor Central under a single autonomous nervous system, we create an impenetrable defensive moat around enterprise brand margins."}
+            </p>
+          </div>
+          <div>
+            <h2 style={{ fontSize: '2rem', fontWeight: '300', marginBottom: '1.5rem', color: '#cbd5e1' }}>{"AWS-Native Scalability"}</h2>
+            <p style={{ color: '#94a3b8', fontWeight: '300', lineHeight: '1.8', fontSize: '1.1rem' }}>
+              {"Built on a robust, event-driven framework, AURORA9 is designed to survive Amazon regime shifts while scaling to handle 3,000 autonomous units. Our ACRE™ and PON™ engines provide the technical sovereignty required for the 2026 trade ecosystem."}
+            </p>
+          </div>
+        </div>
+
+        {/* Form Section */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.98 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          style={{
+            background: 'rgba(255, 255, 255, 0.05)',
+            backdropFilter: 'blur(20px)',
+            borderRadius: '2rem',
+            padding: '4rem 2rem',
+            border: '1px solid rgba(203, 213, 225, 0.2)',
+            boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
+            maxWidth: '60rem',
+            margin: '0 auto'
+          }}
+        >
+          <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
+            <h2 style={{ fontSize: '2.5rem', fontWeight: '300', color: '#fff', marginBottom: '1.5rem' }}>
+              {"Initialize Institutional Handshake"}
+            </h2>
+            <p style={{ color: '#cbd5e1', fontSize: '1.125rem', maxWidth: '38rem', margin: '0 auto', fontWeight: '300', lineHeight: '1.6' }}>
+              {"Accredited partners may request access to the AURORA9 technical whitepaper and the 5-year roadmap briefing below."}
+            </p>
+          </div>
+          
           <div style={{ position: 'relative', zIndex: 1 }}>
             <InvestorForm />
           </div>
-        </div>
+        </motion.div>
       </div>
     </main>
   );
